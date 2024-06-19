@@ -49,9 +49,10 @@ const CSS_Internal = () => {
                 </div>
 
 
-               <div className="bg-[#F8F9FD] rounded-2xl shadow-md p-6 md:col-span-1" style={{ maxHeight: '400px', overflowY: 'auto' }}>
+              <div className="bg-[#F8F9FD] rounded-2xl shadow-md p-6 md:col-span-1" >
                     <h1 className='text-2xl font-bold pb-7'>Materi Pembelajaran</h1>
-                    <button className="bg-[#CDDEFF] text-black py-2 px-4 rounded-3xl flex w-full" onClick={() => navigateTo('/CSS_Internal')}>
+                   <div style={{ maxHeight: '330px', overflowY: 'auto' }}>
+                     <button className="bg-[#CDDEFF] text-black py-2 px-4 rounded-3xl flex w-full" onClick={() => navigateTo('/CSS_Internal')}>
                         <img src={icon} alt="" className='w-[40px] mr-3 ' />
                         <span className='mt-2 '>CSS Internal</span>
                     </button>
@@ -79,6 +80,7 @@ const CSS_Internal = () => {
                         <img src={icon} alt="" className='w-[40px] mr-3' />
                         <span className='mt-2 '>CSS Navigation</span>
                     </button>
+                   </div>
                 </div>
                 
             </div>

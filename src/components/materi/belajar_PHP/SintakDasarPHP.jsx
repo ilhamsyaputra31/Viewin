@@ -49,9 +49,10 @@ const SintakDasarPHP = () => {
                 </div>
 
 
-               <div className="bg-[#F8F9FD] rounded-2xl shadow-md p-6 md:col-span-1" style={{ maxHeight: '400px', overflowY: 'auto' }}>
+               <div className="bg-[#F8F9FD] rounded-2xl shadow-md p-6 md:col-span-1" >
                     <h1 className='text-2xl font-bold pb-7'>Materi Pembelajaran</h1>
-                    <button className="bg-[#CDDEFF] text-black py-2 px-4 rounded-3xl flex w-full " onClick={() => navigateTo('/SintakDasarPHP')}>
+                   <div style={{ maxHeight: '330px', overflowY: 'auto' }}>
+                     <button className="bg-[#CDDEFF] text-black py-2 px-4 rounded-3xl flex w-full " onClick={() => navigateTo('/SintakDasarPHP')}>
                         <img src={icon} alt="" className='w-[40px] mr-3 ' />
                         <span className='mt-2 '>Sintak Dasar PHP</span>
                     </button>
@@ -87,9 +88,9 @@ const SintakDasarPHP = () => {
                         <img src={icon} alt="" className='w-[40px] mr-3' />
                         <span className='mt-2 '>For And Foreach</span>
                     </button>
+                   </div>
                 </div>
 
-          
             </div>
         </div>
     </div>

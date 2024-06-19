@@ -28,7 +28,7 @@ const Login = () => {
           </div>
         </div>
         <h1 className='text-right'>Forget Password?</h1>
-        <button className='bg-[#2C3D8F] w-[500px] rounded-xl my-4 mx-auto py-2 text-white block font-bold mt-10' onClick={() => navigateTo('/')}>
+        <button className='bg-[#2C3D8F] w-[500px] rounded-xl my-4 mx-auto py-2 text-white block font-bold mt-10' onClick={() => navigateTo('/Materi')}>
         <p>Login</p>
         </button>
         <h1 className='text-right'>Don't have an account? <span className='text-[#5A81FA]'><Link to="/register">Sign Up</Link></span></h1>
