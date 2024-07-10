@@ -156,7 +156,7 @@ const Materi = () => {
               <div>
                   <button className=" bg-white text-black py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline flex w-[250px] mt-3" onClick={() => navigateTo('/InstallReactjs')}>
                     <img src={icon_vidio} alt="" className="w-5 justify-center " />
-                    <p to="#" className='text-xs ml-1'>Internal ReactJS</p>
+                    <p to="#" className='text-xs ml-1'>Install ReactJS</p>
                   </button>
                   <button className=" bg-white text-black py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline flex w-[250px]" onClick={() => navigateTo('/Mengenaljsx')}>
                     <img src={icon_vidio} alt="" className="w-5 justify-center" />

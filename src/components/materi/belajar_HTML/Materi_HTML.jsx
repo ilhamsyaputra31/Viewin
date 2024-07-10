@@ -13,7 +13,7 @@ return (
     <div className='w-full px-4'>
         <Navbardalammateri />
         <div className='container mx-auto px-4'>
-            <h1 className='text-3xl font-bold text-center mt-10'>Kelas Online Belajar Hal Dasar HTML</h1>
+            <h1 className='text-3xl font-bold text-center mt-10'>Persiapan Dan Perkenalan HTML</h1>
             <p className='text-center mt-2'>learn how to build a real project from scratch</p>
 
             <div className='max-w-[1240] grid md:grid-cols-3 mt-10 '>

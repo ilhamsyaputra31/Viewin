@@ -21,7 +21,6 @@ const LandingPage = () => {
                               <span className='mt-3 mr-5 text-2xl' >Mulai</span>
                             </div>
                           </button>
-                        
                     </div>
                 </div>
                  <img src={gambar} alt="" className='w-[500px] mx-auto my-4'/>
